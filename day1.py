@@ -95,5 +95,8 @@ print(type(f))
 print(type(h))
 print(type(v))
 print(type(q))
+
+
+
 #voli Multi variables;;
 #aani global variable
