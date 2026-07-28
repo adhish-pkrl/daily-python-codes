@@ -48,11 +48,12 @@ print(3)
 a = 5
 b = "Adhish"
 print(a, b)
-print(f"value of {a} my name is{b}")
+#print(f"value of {a} my name is{b}")
+print(f"value of b is {b} and value of a is{a}")
 
 print(type(a))
 print(type(b))       #  ctrl + slash ( / ) leyyyy sabei selected Code Laii comment ma change garxa.
-
+print(type(b))
 
 g = 10
 y = 5
@@ -76,14 +77,23 @@ cannot give space  " he llo = 5  "
 first_name1 = "Adhish"
 last_name22 = "Pokharel"
 print("first name is : ", first_name1)
-
+print("my surname is : ", last_name22)
 
 # CASTING 
 u = str(3)
 e = "pokharel"
 f = int(3.5)
 
+h = str(5)
+v = "poudel"
+q = int(5.9)
 
+print(type(u))
+print(type(e))
+print(type(f))
 
+print(type(h))
+print(type(v))
+print(type(q))
 #voli Multi variables;;
 #aani global variable
