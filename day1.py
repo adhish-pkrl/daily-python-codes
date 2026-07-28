@@ -4,7 +4,7 @@ python is a high level language, Developed BY  Guido van Rossum (1991)"""
 #W3 school best for learning /
 #python.org x
 
-#bhind the scen C / that's because its fast (at backend of python)
+#bhind the sc.. C / that's because it's fast (at backend of python)
 """
 Web deve
 AI 
@@ -13,7 +13,7 @@ mathmatics
 System Scripting
 
 Why python?
-Windows, MAc , linux, Resberry Pi
+Windows, MAc , linux, ResberryPi
 
 syntax : pain text into english
 focus on Logic 
@@ -23,21 +23,21 @@ OOB programming language hoo
 
 """
 
-#print("Hello World")
+print("Hello World")
 #indentation refers to the space 
 
 #here is our first program to Print Statement 
-#print("Hello Guys Im Adhish POkharel")
+print("Hello Guys Im Adhish POkharel")
 
-#X = 3
-#print("the value of x is ", X)
-#print('Hello') # single quotation  panii  same kam garxa kam garxa 
+X = 3
+print("the value of x is ", X)
+print('Hello') # single quotation  panii  same kam garxa 
 
-#print(3)
+print(3)
 
 #Now Variables
 
-#data lai Sotre garnii containers 
+#data lai Sotre garnii containers are variables 
 
 #A variable is created at first assign a Value 
 
@@ -45,18 +45,19 @@ OOB programming language hoo
 #numeric
 
 
-#a = 5
-#b = "Adhish"
-#print(a, b)
-#print(f"value of {a} my name is{b}")
+a = 5
+b = "Adhish"
+print(a, b)
+print(f"value of {a} my name is{b}")
 
-#print(type(a))
-#print(type(b))  ctrl + slash /
+print(type(a))
+print(type(b))       #  ctrl + slash ( / ) leyyyy sabei selected Code Laii comment ma change garxa.
 
-# x = 10
-# y = 5
-# print(f"the value of {x} and the value of {y}")
-# print(type(x))
+
+g = 10
+y = 5
+print(f"the value of {g} and the value of {y}")
+print(type(g))
 
 
 #rules of making variable
@@ -78,10 +79,11 @@ print("first name is : ", first_name1)
 
 
 # CASTING 
-x = str(3)
-y= "pokharel"
-z = int(3.5)
+u = str(3)
+e = "pokharel"
+f = int(3.5)
 
 
-voli Multi variables;;
-aani global variable
+
+#voli Multi variables;;
+#aani global variable
