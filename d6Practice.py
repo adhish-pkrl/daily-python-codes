@@ -41,3 +41,43 @@ else:
    print(" c is no longer than 9")
 
 
+##For loop 
+frindss = ["Adhish", "pratik", "Sujal", "Amrit", "Prasun"]
+for x in frindss: 
+   print(x)
+
+#for each string
+for y in "Adhish":
+   print(y)
+
+
+#Break 
+for x in frindss:
+   print(x)
+   if x =="Sujal" :
+      break
+
+#continue
+print("After this Continue Statement")
+#frindss
+for u in frindss:
+   if u =="pratik":
+      continue
+   print(u)
+
+#range function
+for y in range(4):
+   print(y)
+
+for a in range(2, 6):
+   print(a)
+
+
+#Else in for Loop
+print("After this \'else in loop \'")
+##
+for x in range(6):
+   print(x)
+else:
+   print("finally finished!")
+
