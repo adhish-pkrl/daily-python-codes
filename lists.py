@@ -207,3 +207,46 @@ odd_lst = [1 if dum % 2 != 0 else dum for dum in odd_lst]
 print("Updated odd list : ", odd_lst)
 
 
+#Change a nested list value.
+nst_list[0][0] = "Prasun"
+
+nst_list[2][2] = 99
+print("updated list :", nst_list)
+
+
+#Replace duplicate values.
+numbers = [ 1,4,5,55,1,5,33,75,33,55]
+print("Original values:", numbers)
+
+#replacing
+alr = set()  #set--it automatically stores only unique values
+for o in range(len(numbers)):
+    if numbers[o] in alr:
+        numbers[o] = 7  #replace duplicate
+    else:
+        alr.add(numbers[o])
+print("After replacement:", numbers)
+
+
+#Modify a list based on user input.
+print("before user input: ",numbers)
+
+#taking user input
+
+#first kun kun index samma change garnii tyo input lignii
+index = int(input("Enter the index values of numbers: "))
+
+#second Value ko input lignii
+nw_numbers = int(input("Enter the new value : "))
+
+#Modifiy the list
+numbers[index] = nw_numbers
+
+print("Updated list: ", numbers)
+
+
+
+
+
+# Adding List Items 
+#aarkoo file ma xaa   ==" addlist.py "
