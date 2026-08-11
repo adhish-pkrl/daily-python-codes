@@ -121,3 +121,108 @@ if "Model" in car:
     print("Yesh it exists")
 else:
     print("No this is not")
+
+
+##Add Items
+thisdict["mine"] = "E-TL"
+print(thisdict)
+
+
+#Update
+thisdict.update({"patu's" : "QUZ-09"})
+print(thisdict)
+
+
+##Remove
+print("after this remove")
+thisdict.pop("year")
+print(thisdict)
+
+
+thisdict.popitem()  #last ma add vako key value = item delete huxa
+print(thisdict) 
+
+
+#del
+del thisdict["mine"]
+print(thisdict)
+
+#clear
+thisdict.clear()
+print(thisdict)
+
+
+
+
+print("After this Loop")
+##### Loop #####
+dictnry =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in dictnry :
+    print(x)      ##print all key names
+
+for y in dictnry.keys():
+    print("Keys are:",y)
+
+
+
+#Value print
+for x in dictnry:
+    print("Values are:", dictnry[x])
+
+
+for x in dictnry.values():
+    print(x)
+
+
+
+##Loop through both keys and values, by using the items() . methos:
+for x , y in dictnry.items():
+    print(x, y)
+
+
+
+print("After this Copy dictnary")
+#Copy Dictonarues
+myDict = dict(dictnry)
+print(myDict)
+
+ymdict = dictnry.copy()
+print(ymdict)
+
+
+
+
+#### Nested Dictionaries ####
+myfamly ={
+    "child1" : {
+        "name" : "Pratik",
+        "DOB" : "2004"
+    },
+"child2" : {
+    "name" :"Tobias",
+    "year" : "2006"
+},
+
+"child3" : {
+    "name" : "Tobias",
+    "year" : "2010"
+}
+
+}
+print(myfamly)
+
+#print the name of  child 2 
+print("name of Child2 ",myfamly["child2"]["name"])
+
+
+###Lopp 
+for x, obj in myfamly.items():
+    print(x)
+
+    for y in obj:
+        print(y+ ':', obj[y])
+        
