@@ -16,13 +16,17 @@ else:
     print("F")
 
 
-#Age Category      ###--?>Wrong xaaa
-age = int(input("Enter your age: "))
-if age >12:
-    print("Child")
-elif age >19:
-    print("Teenager")
-elif age >59:
-    print("Adult")
-else:
-    print("Senior Citizen")
+# #Age Category      ###--?>Wrong xaaa
+# age = int(input("Enter your age: "))
+# if age >12:
+#     print("Child")
+# elif age >
+
+
+
+#Number Type
+num = int(input("enter a num: "))
+if num > 0:
+    print("NUm is Positive")
+elif num == 0:
+    print("Num is Zero")
