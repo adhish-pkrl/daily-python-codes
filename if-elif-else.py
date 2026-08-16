@@ -247,31 +247,62 @@
 
 
 
-#Resturant Ordering System
-food = str(input("Enter your Food (Burger, Pizza, Momo, Chowmein)"))
-room_type = str(input("enter Your Room Type(Standard, Deluxe, Suite): "))
-night = int(input("Enter how many days you want to Stay: "))
+# #Resturant Ordering System
+# food = str(input("Enter your Food (Burger, Pizza, Momo, Chowmein)"))
+# fod = food.upper()
+# room = str(input("enter Your Room Type(Standard, Deluxe, Suite): "))
+# night = int(input("Enter how many days you want to Stay: "))
 
-if food == "Burger":
-    print("Rs.225")
-elif food == "Pizza":
-    print("Rs.510")
-elif food == "Momo":
-    print("Rs.180")
+# if fod == "Burger":
+#     print(f"Price of {fod} Rs.225")
+# elif fod == "Pizza":
+#     print(f"price of {fod} Rs.510")
+# elif fod == "Momo":
+#     print(f"price of {fod} Rs.180")
+# else:
+#     print(f"price of Chowmein Rs.60")
+
+# if night >= 1 and night <= 2:
+#     print("Youll get No Discount!")
+# elif night >= 3 and night == 4 and night <= 5:
+#     print("Youll get Discount!")
+# else: 
+#     print("Youll get 15% Discount!")
+
+
+# if room == "Standard":
+#     room_type = room.upper()
+#     prcStrd = float(3000 / night)
+#     print("Rs.",prcStrd )
+
+# if room == "Deluxe":
+#     room_type = room.upper()
+#     prcdel = float(5000 / night)
+#     print("Rs.", prcdel)
+# if room == "Suite":
+#     room_type= room.upper()
+#     prcSut = float(8000 / night)
+#     print("Rs.",prcSut)
+
+
+
+
+
+#Student result System
+eng = float(input("Enter your English sub marks: "))
+mth = float(input("Enter your Math sub marks: "))
+scnc = float(input("Enter your Science sub marks: "))
+cmptr = float(input("Enter your Computer sub marks: "))
+
+avg = float(eng + mth + scnc + cmptr) / 4
+print(f"Your average marks: {avg}")
+if avg >= 80:
+    print("Distinction")
+elif avg >= 60:
+    print("First Division")
+elif avg >=50:
+    print("Second Division")
+elif avg >= 40:
+    print("Pass")
 else:
-    print("60")
-
-if room_type == "Standard":
-    print("Rs.",3000/ {night})
-if room_type == "Deluxe":
-    print("Rs.",5000/ {night})
-if room_type == "Suite":
-    print("Rs.",8000/ {night})
-
-
-if night == 1 and night == 2:
-    print("No Discount!")
-elif night == 1 and night == 2:
-    print(" Discount!")
-else: 
-    print("15% Discount!")
+    print("Fail")
