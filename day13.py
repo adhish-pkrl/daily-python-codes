@@ -20,11 +20,11 @@
 #### range(start, end, encremet/ decrement)
 
 
-print('Anothr loop in Square form:')
-for i in range(1, 7):
-    for j in range(i):
-        print(j, end = " ")
-    print()
+# print('Anothr loop in Square form:')
+# for i in range(1, 7):
+#     for j in range(i):
+#         print(j, end = " ")
+#     print()
 
 
 """
@@ -37,3 +37,14 @@ for i in range(1, 7):
 0
 
 """
+for i in range(0,7):
+    for j in range(6-i):
+        print(j, end=" ")
+    print()
+
+
+
+# for i in range(5):
+#     for j in range(7):
+#         print(j, end="")
+#     print(" ")
