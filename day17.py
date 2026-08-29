@@ -69,15 +69,32 @@ print(pos_neg(3))
 #lagest num between 2numbers
 def largest_num(a,b):
     if a > b:
-        return(a)
+        return(f"the num : {a} is largest")
     else:
-        return(b)
-print(largest_num())
+        return(f"the num: {b} is largest")
+print(largest_num(3,4))
+print(largest_num(5,2))
 
 #electricity ko bill unit aanusar --unit pass garnii -- aanii jati poisa xa
 # 0 - 100 unit = 5per unit
 #101-200 unit = 7per unit
 #201> unit = 10per unit
+def electbil(unit):
+    if unit >= 100:
+        return("Your payment amount is: ", unit*5)
+    elif unit >200:
+        return("Your payment amount is: ", unit *7)
+    else:
+        return("Your payment amount is: ", unit* 10)
+print(electbil(50))
+print(electbil(170))
+print(electbil(240))
+
 
 #5 diye 1+2+3+4+5 add garniii
-
+def fibo(numm):
+    total = 0
+    for i in range(numm +1):
+        total += i
+    return(total)
+print("the total sun is:",fibo(8))
