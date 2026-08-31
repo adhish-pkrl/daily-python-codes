@@ -98,3 +98,7 @@ def fibo(numm):
         total += i
     return(total)
 print("the total sun is:",fibo(8))
+
+
+
+
