@@ -222,3 +222,14 @@ print(viw)
 
 # print(arr)
 # print(x)
+
+
+#Accessing a module from file modules.py
+
+import modules
+modules.greeting("Adhish")
+
+
+##Another module accessing
+str = modules.person1["age"]
+print(str)
