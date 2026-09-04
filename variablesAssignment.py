@@ -47,7 +47,6 @@ y = int(2.8)
 z = complex(1)
 print(x, y, z)
 
-
 #diffrence btwn Local and global variable
 
 """
@@ -62,7 +61,7 @@ Global variable : Function bahira create garera Function vitra bahira 2tei ma Us
 nam = "Adhish"
 std_ID = 103
 addr = "Butwal"
-faculty = "BCA"
+faculty = "Humanities"
 section = "A"
 print(f"The student name is {nam} , form {addr}, ID {std_ID}, faculty of {faculty}, Section {section} ")
 
@@ -72,3 +71,4 @@ d = 10
 s = 5
 d = s + 20
 print(d)   
+

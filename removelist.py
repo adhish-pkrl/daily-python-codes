@@ -52,5 +52,12 @@ print(name)
 
 #Explain the difference between remove(), pop(), del, and clear().
 """
-remove() --> 
+remove() -->  removes the first occurence of a specific value = value dina parxa Kun delete garni vanera
+
+pop() --> removes the item at the given index
+
+del --> deletes the item at a specific index
+
+clear() --> removes all the items from list, leaving it empty
+
 """

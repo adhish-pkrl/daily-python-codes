@@ -24,6 +24,7 @@ print(first_name.upper())
 print(first_name.lower())
 
 
+
 # #Remove Whitespace
 
 # ####White sapce is a space between and/or after the actual text
@@ -60,7 +61,7 @@ print(str)
 #Escape Character 
 print("My name is \"Adhish\" Pokharel ")   #yesma error aauxa CUZ String vitra Double Quotes use Unvalid hunxa
 
-print("My name is \"Adhish\" Pokharel")   
+print("My name is \"Adhish\" Pokharel")    #
 
 
 #voli boolean 

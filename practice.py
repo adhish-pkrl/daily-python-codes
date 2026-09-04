@@ -41,3 +41,5 @@ z = q.replace("MAnxeyy", "Badarr")
 print(z)
 
 print(f.swapcase())   #Swap hunxa Upper case lai Lower aanii Lower case laiii Upper Ma
+
+

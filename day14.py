@@ -4,13 +4,13 @@ for i in range(1,7):
         print(j, end = "")
     print()
 
-"""
-    *
-   **
-  ***
- ****
-*****
-"""
+# """
+#     *
+#    **
+#   ***
+#  ****
+# *****
+# """
 for i in range(1,6):
     for j in range(5-i):
         print(" ", end=" ")
@@ -30,3 +30,19 @@ for i in range(1,7):
     for k in range(2*i-1):
         print("*", end = " ")
     print()
+
+"""
+*****
+****
+***
+**
+*
+"""
+for i in range(6):
+    for j in range(5-i):
+        print("*", end = " ")
+    print( )
+
+"""
+****
+"""

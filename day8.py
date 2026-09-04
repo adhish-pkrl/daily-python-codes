@@ -52,3 +52,46 @@ print(item)
 ##aafei hernii
 
 
+#join set
+#aafei herni
+
+
+#dictonary 
+#dictonary is used to store data values in key:value pairs
+"""
+written in curly braces
+do not allow duplicate value
+
+"""
+#EX
+student = {
+    #keys : value --form ma write garniii
+    "name" : "Adhish",
+    "age" : 19
+}
+print(student)
+
+#get  the value 
+print(student['name'])
+print(student.get('name'))
+
+
+##CHANGE value
+student["age"] = "huhu"
+print(student)
+
+#Value hernii all
+print(student.values())
+
+
+
+#ADD items
+student["colour"] = "Blue"
+print(student)
+
+
+##gET ITEMS
+"""
+tuple ma value print garxa
+"""
+print(student.itemsv())

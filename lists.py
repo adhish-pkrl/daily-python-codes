@@ -231,8 +231,9 @@ print("After replacement:", numbers)
 #Modify a list based on user input.
 print("before user input: ",numbers)
 
-#taking user input
 
+
+#taking user input
 #first kun kun index samma change garnii tyo input lignii
 index = int(input("Enter the index values of numbers: "))
 

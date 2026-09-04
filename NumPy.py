@@ -121,3 +121,18 @@ print("After this my test:")
 # mytest = np.array([[[3,2,1], [6,5,4], [5,5,5]][[54,43,54,3],[343,5,43,4534,345,543],[66,77,88,99]]])
 # # print(mytest[1,0,1])
 # print(mytest.ndim)
+# import numpy as nnpp
+
+# are = nnpp.array([[[1,2],[4,0]],[[44,22],[66,77]],[[99,100],[00,11]]])
+# print(are.ndim)
+
+
+
+
+
+##Array Slicing
+#taking element from one given index to another given index
+# [start, stop, step/gap]
+import numpy as qqw
+we =qqw.array([1,32,87,0,998,0,45,23,65,768,34])
+print(we[2:9:1])
