@@ -136,3 +136,71 @@ print("After this my test:")
 import numpy as qqw
 we =qqw.array([1,32,87,0,998,0,45,23,65,768,34])
 print(we[2:9:1])
+
+
+
+#2-D array Slicing
+import numpy as np
+
+ayr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+
+print(ayr[1, 1:4])
+
+
+
+#Data types in Numpy
+import numpy as ss
+ww = ss.array([2,4])
+qq = ss.array(['apple', "banana"])
+print(ww.dtype)
+print(qq.dtype)
+
+oo = ss.array([3,5], dtype='S')
+print(oo)
+print(oo.dtype)
+
+
+
+
+print("After this Copy & view")
+###Array Copy vs View
+#the main diff btwn a copy and view of an array
+# is that the copy is a new array,
+# and the view is just a view of the original array
+
+#####COPY
+"""
+make a copy, change the original array, and display both arrays:
+"""
+import numpy as uu
+cpy = uu.array([43,3,23,24,556])
+x = cpy.copy()
+print(cpy)
+# print(x)
+cpy[0] = 42
+print(x)
+print(cpy)
+print(x)
+x[0]= 41
+print(x)
+
+
+#view
+# import numpy as np
+
+# arr = np.array([1, 2, 3, 4, 5])
+# x = arr.view()
+# arr[0] = 42
+
+# print(arr)
+# print(x)
+
+#make changes in view
+# import numpy as np
+
+# arr = np.array([1, 2, 3, 4, 5])
+# x = arr.view()
+# x[0] = 31
+
+# print(arr)
+# print(x)
