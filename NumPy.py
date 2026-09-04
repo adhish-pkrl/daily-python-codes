@@ -185,6 +185,24 @@ x[0]= 41
 print(x)
 
 
+
+
+####View
+"""
+make a view, change the view, and display both arrays:
+"""
+import numpy as jj
+viw = jj.array([99,88,77])
+y = viw.view()
+print(viw)
+print(y)
+y[0] = 00
+print("Changed in view: ", y)
+print(viw)
+
+viw[2]= 67
+print(y)
+print(viw)
 #view
 # import numpy as np
 
