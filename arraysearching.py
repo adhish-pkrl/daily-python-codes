@@ -57,4 +57,4 @@ print("7 sort form right side:",d)
 #sort multiple values-->
 sarr = nnp.array([1,3,6,9])
 f = nnp.searchsorted(sarr, [2,5,10])
-print(f)
+print("Multiple value sort: ",f)
